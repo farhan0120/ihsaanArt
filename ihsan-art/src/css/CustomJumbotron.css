@@ -1,0 +1,42 @@
+/* CustomJumbotron.css */
+.custom-jumbotron {
+    border-radius: 6px;
+    padding: 0px; /* Adjust the padding to make the jumbotron smaller */
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .jumbotron-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .jumbotron-image {
+    width: 100%; /* Make the image span the full width of the jumbotron */
+    /*height: auto; /* Allow the image to scale while maintaining its aspect ratio */
+    height: 100px;
+    width: 100px;
+    max-height: 10px; /* Set a maximum height for the image to control its size */
+    margin-bottom: 0px;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .custom-jumbotron {
+      padding: 0px; /* Adjust the padding for larger screens */
+    }
+  
+    .text-container {
+      max-width: 60%;
+    }
+  }
+  

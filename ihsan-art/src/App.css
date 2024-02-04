@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fffff2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.section {
+  padding-top: 40px; /* Adjust the top padding as needed */
+  padding-bottom: 40px; /* Adjust the bottom padding as needed */
+}
+
+.container {
+  text-align: left; /* Add text-align property to left-align the text */
+}
+
+/* App.css */
+
+/* App.css */
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400; /* Adjust the weight if needed */
+  src: local('EB Garamond'), local('EBGaramond-Regular'),
+      url('./fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 400; /* Adjust the weight if needed */
+  src: local('EB Garamond Italic'), local('EBGaramond-Italic-VariableFont_wght.ttf'),
+      url('./fonts/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+
+body {
+  font-family: 'EB Garamond', sans-serif; /* Fallback to sans-serif if the font is not available */
+}
+/* Rest of your styles */
+
+.container {
+  font-family: 'EB Garamond', sans-serif; /* Apply the font to elements with class .container */
+}
+
+
+/* App.css */
+
+.btn-gold:hover {
+  text-decoration: underline gold;
+}

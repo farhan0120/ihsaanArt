@@ -1,0 +1,47 @@
+/* ArtGalleryNavbar.css */
+.luxurious-navbar {
+    background-color: #001f3f; /* Navy blue background color */
+    padding: 20px 0 !important; /* Add some padding for spacing */
+    border-bottom: 2px solid #ffd700; /* Gold border at the bottom */
+    margin: 0 auto;
+
+    
+  }
+  
+
+  @media(max-width:600px) {
+    .navbar {
+      min-height: 500vh;
+      align-items: flex-start;
+    }
+  }
+
+
+  .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: white !important; /* Gold text color */
+
+  }
+
+
+  
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff !important; /* White text color */
+    margin-left: 20px;
+    text-decoration: none ; /* Remove default underline */
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important; /* Golden color on hover */
+  }
+
+  .navbar-header {
+    background-color: #F16E10;
+    border-bottom: 2px solid #ffc107; /* Gold underline on hover */
+
+  }
+  
