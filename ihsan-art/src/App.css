@@ -83,3 +83,9 @@ body {
 .btn-gold:hover {
   text-decoration: underline gold;
 }
+
+
+.eb-garamond-font {
+  font-family: 'EB Garamond', serif;
+  /* Add any additional styling here */
+}

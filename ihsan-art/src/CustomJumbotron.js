@@ -20,9 +20,9 @@ function CustomJumbotron() {
       alt="Not Working"
       style={{ width: '100%', height: 'auto', maxHeight: '1000px', marginBottom: '0px' }}
     />
-          <div className="text-container">
+          <div className="text-container eb-garamond-font" >
             <h1>Welcome to the Art Gallery ABC IDA</h1>
-            <p>
+            <p className="eb-garamond-font">
               Explore the beauty of art in our exquisite collection. Discover exhibitions, talented artists, and more.
             </p>
           </div>

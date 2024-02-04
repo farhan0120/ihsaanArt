@@ -45,3 +45,49 @@
 
   }
   
+
+  /* ArtGalleryNavbar.css */
+
+/* ... Your existing styles ... */
+
+/* Custom styling for dropdown items */
+/* ArtGalleryNavbar.css */
+
+/* ... Your existing styles ... */
+
+/* Custom styling for dropdown items */
+.navbar-dark .navbar-nav .nav-item.dropdown .nav-link,
+.navbar-dark .navbar-nav .nav-item.dropdown .nav-link:hover,
+.navbar-dark .navbar-nav .nav-item.dropdown .nav-link:focus,
+.navbar-dark .navbar-nav .nav-item.dropdown .nav-link:active {
+  color: #001f3f !important; /* Navy blue text color */
+}
+
+.navbar-dark .navbar-nav .nav-item.dropdown .nav-link:hover {
+  background-color: #ffd700 !important; /* Gold background color on hover */
+  color: #001f3f !important; /* Navy blue text color on hover */
+}
+
+/* ... Your existing styles ... */
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffd9003b;
+}
+
+
+.navbar {
+  font-family: 'EB Garamond', sans-serif;;
+}

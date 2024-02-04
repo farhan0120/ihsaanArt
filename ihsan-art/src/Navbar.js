@@ -16,10 +16,10 @@ function ArtGalleryNavbar() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="nav-link">
+            <Nav.Link href="#home" className="nav-link eb-garamond-font">
               Home
             </Nav.Link>
-            <NavDropdown title="Places" id="basic-nav-dropdown">
+            <NavDropdown title="Places" id="basic-nav-dropdown" className="eb-garamond-font">
               <NavDropdown.Item href="#action/3.1">Palestine</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Jordan
@@ -29,7 +29,7 @@ function ArtGalleryNavbar() {
               <NavDropdown.Item href="#action/3.3">UAE</NavDropdown.Item>
 
             </NavDropdown>
-            <NavDropdown title="Religions" id="basic-nav-dropdown">
+            <NavDropdown title="Religions" id="basic-nav-dropdown" className="eb-garamond-font">
               <NavDropdown.Item href="#action/3.1">Judaism</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Christianity
